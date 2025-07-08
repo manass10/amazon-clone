@@ -24,12 +24,6 @@ This project replicates key features like product browsing, cart, checkout, user
 
 ---
 
-## 📷 Screenshots
-
-_Add screenshots of your UI (optional but makes your repo look awesome)._
-
----
-
 ## 🧪 How to Run Locally
 
 ```bash
