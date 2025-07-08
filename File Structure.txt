@@ -1,0 +1,70 @@
+amazon-clone/
+├── app/
+│   ├── layout.tsx                    # Root layout with AuthProvider and CartProvider
+│   ├── page.tsx                      # Home page with hero, categories, and deals
+│   ├── globals.css                   # Global styles (shadcn default)
+│   │
+│   ├── auth/
+│   │   └── page.tsx                  # Combined login/signup page
+│   │
+│   ├── products/
+│   │   └── page.tsx                  # Products listing with filters and cart integration
+│   │
+│   ├── cart/
+│   │   └── page.tsx                  # Shopping cart with quantity management
+│   │
+│   ├── checkout/
+│   │   └── page.tsx                  # Checkout flow with shipping and payment
+│   │
+│   ├── gift-cards/
+│   │   └── page.tsx                  # Gift card customization and purchase
+│   │
+│   ├── todays-deals/
+│   │   └── page.tsx                  # Today's deals with time-limited offers
+│   │
+│   ├── orders/
+│   │   └── page.tsx                  # Returns & orders (requires authentication)
+│   │
+│   └── all/
+│       └── page.tsx                  # All categories overview
+│
+├── components/
+│   ├── ui/                          # shadcn/ui components (pre-installed)
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── input.tsx
+│   │   ├── label.tsx
+│   │   ├── badge.tsx
+│   │   ├── alert.tsx
+│   │   ├── select.tsx
+│   │   └── separator.tsx
+│   │
+│   ├── navigation/
+│   │   └── header.tsx               # Main navigation header with cart count
+│   │
+│   ├── auth/
+│   │   ├── login-form.tsx           # Login form component
+│   │   ├── signup-form.tsx          # Signup form component
+│   │   └── user-profile.tsx         # User profile display component
+│   │
+│   └── theme-provider.tsx           # Theme provider (pre-installed)
+│
+├── contexts/
+│   ├── auth-context.tsx             # Authentication state management
+│   └── cart-context.tsx             # Shopping cart state management
+│
+├── lib/
+│   ├── supabase.tsx                 # Supabase client configuration
+│   └── utils.ts                     # Utility functions (pre-installed)
+│
+├── hooks/
+│   ├── use-mobile.tsx               # Mobile detection hook (pre-installed)
+│   └── use-toast.ts                 # Toast notifications hook (pre-installed)
+│
+├── scripts/
+│   └── setup-database.sql           # Database schema setup for Supabase
+│
+├── next.config.mjs                  # Next.js configuration (pre-installed)
+├── tailwind.config.ts               # Tailwind CSS configuration (pre-installed)
+├── tsconfig.json                    # TypeScript configuration (pre-installed)
+└── package.json                     # Dependencies (pre-installed)
